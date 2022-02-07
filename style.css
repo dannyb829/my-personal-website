@@ -53,3 +53,8 @@ h1, h2 {
 #aboutMe h2 {
     margin: 0 0 0 0;
 }
+
+#theDBLogo {
+    max-width: 90px;
+    max-height: 90px;
+}
