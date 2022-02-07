@@ -19,6 +19,7 @@ header nav {
     position: absolute;
     bottom: 0px;
     left: 46.604%;
+    color: rebeccapurple;
 }
 
 nav a:hover {
