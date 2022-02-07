@@ -19,6 +19,9 @@ header nav {
     position: absolute;
     bottom: 0px;
     left: 46.604%;
+}
+
+nav a {
     color: rebeccapurple;
 }
 
@@ -28,7 +31,8 @@ nav a:hover {
 
 body header h1 {
     color: blueviolet;
-    margin-left: 36%;
+    text-align: center;
+    margin-right: 115px;
 }
 
 #firstheading {
