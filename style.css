@@ -3,7 +3,7 @@ body {
     background: #fdf8e2;
     margin: 0;
     font-family: 'Bebas Neue', cursive;;
-    height: 200vh;
+    height: 220vh;
 }
 
 header {
@@ -42,8 +42,8 @@ body header h1 {
 
 #theDBLogo {
     float: left;
-    width: 90px;
-    height: 90px
+    max-width: 90px;
+    max-height: 90px
 }
 
 .sections {
@@ -52,14 +52,41 @@ body header h1 {
 }
 
 h1, h2 {
-    color: #1d0424;
+    color: #410151;
 }
 
 #aboutMe h2 {
     margin: 0 0 0 0;
 }
 
-#theDBLogo {
-    max-width: 90px;
-    max-height: 90px;
+#bottomOfPage {
+    position: fixed;
+    height: 70px;
+    background-color: #1d0424;
+    width: 100%;
+    height: 70px;
+    bottom: 0px;
+}
+
+#picOfDan {
+    position: static;
+    margin-top: 50px;
+    height: 600px;
+}
+
+.bubble {
+    width: 50%;
+    background-color: #fecc7c;
+    border: 5px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.bubble p {
+    color: #410151;
+    font-size: 18px;
+    text-indent: 1.75em;
+    
 }
